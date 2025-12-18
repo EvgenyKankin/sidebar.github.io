@@ -9,47 +9,47 @@
     <link rel="stylesheet" href="./reset.css">
 </head>
 <body>
-<div class="dropdowm-menu">
-    <header class="dropdown-menu__header">
-        <button class="dropdown-menu__item--burger icon-size"></button>
-        <a href="!#" class="dropdown-menu__item--group"><img class="dropdown-menu__logo" src="./icons/group.png" alt="Логотоип CPS"></a>
-        <button class="dropdown-menu__item--search icon-size"></button>
+<aside class="sidebar">
+    <header class="sidebar__header">
+        <button class="menu-button icon-size sidebar__button--grayscale"></button>
+        <a href="!#" class="sidebar__item--group"><img class="sidebar__logo" src="./icons/group.svg" alt="Логотоип CPS"></a>
+        <button class="sidebar__item--search icon-size sidebar__button--grayscale"></button>
     </header>
 
-    <main class="dropdown-menu__main-content">
-        <nav class="dropdown-menu__list">
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--repairs"><span class="dropdown-menu__highlight"></span>Ремонт техники</a>
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--services"><span class="dropdown-menu__highlight"></span>Услуги и сервисы</a>
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--corpclients"><span class="dropdown-menu__highlight"></span>Корпоративным клиентам</a>
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--traders"><span class="dropdown-menu__highlight"></span>Продавцам техники</a>
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--partners"><span class="dropdown-menu__highlight"></span>Партнерам</a>
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--productions"><span class="dropdown-menu__highlight"></span>Производителям</a>
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--centers"><span class="dropdown-menu__highlight"></span>Наши сервисные центры</a>
-            <a href="!#" class="dropdown-menu__link dropdown-menu__link--contacts"><span class="dropdown-menu__highlight"></span>Контакты</a>
+    <div class="sidebar__content">
+        <nav class="sidebar__list">
+            <a href="!#" class="sidebar__link sidebar__link--repairs"><span class="sidebar__highlight"></span>Ремонт техники</a>
+            <a href="!#" class="sidebar__link sidebar__link--services"><span class="sidebar__highlight"></span>Услуги и сервисы</a>
+            <a href="!#" class="sidebar__link sidebar__link--corpclients"><span class="sidebar__highlight"></span>Корпоративным клиентам</a>
+            <a href="!#" class="sidebar__link sidebar__link--traders"><span class="sidebar__highlight"></span>Продавцам техники</a>
+            <a href="!#" class="sidebar__link sidebar__link--partners"><span class="sidebar__highlight"></span>Партнерам</a>
+            <a href="!#" class="sidebar__link sidebar__link--productions"><span class="sidebar__highlight"></span>Производителям</a>
+            <a href="!#" class="sidebar__link sidebar__link--centers"><span class="sidebar__highlight"></span>Наши сервисные центры</a>
+            <a href="!#" class="sidebar__link sidebar__link--contacts"><span class="sidebar__highlight"></span>Контакты</a>
         </nav>
-    </main>
+    </div>
 
-    <footer class="dropdown-menu__footer">
-        <div class="footer-nav">
-            <button class="footer-nav__item--call icon-size"></button>
-            <button class="footer-nav__item--chat icon-size"></button>
-            <button class="footer-nav__item--profile icon-size"></button>
-        </div>
+    <footer class="sidebar__footer">
+        <ul class="footer-nav">
+            <button class="footer-nav__item--call icon-size sidebar__button--grayscale"></button>
+            <button class="footer-nav__item--chat icon-size sidebar__button--grayscale"></button>
+            <button class="footer-nav__item--profile icon-size sidebar__button--grayscale"></button>
+        </ul>
 
-        <div class="dropdown-menu__mail">
-            <a class="dropdown-menu__send-mail">mail@cps.com</a>    
-        </div>
+        <adress class="sidebar__contacts">
+            <a href="mailto:mail@cps.com" class="sidebar__mail">mail@cps.com</a>    
+        
 
-        <div class="dropdown-menu__phone">
-            <span>88008908900</span>
-        </div>
+        
+            <a href="tel:88008908900" class="sidebar__phone">88008908900</a>
+        </adress>
 
-        <div class="dropdown-menu__language">
-            <a class="dropdown-menu__language--RU">RU</a>
-            <a class="dropdown-menu__language--EN">EN</a>
-            <a class="dropdown-menu__language--CH">CH</a>
-        </div>
+        <ul class="language-selector">
+            <a class="language-selector__language--RU language-selector__language--active">RU</a>
+            <a class="language-selector__language--EN">EN</a>
+            <a class="language-selector__language--CH">CH</a>
+        </ul>
     </footer>
-</div>
+</aside>
 </body>
 </html>
